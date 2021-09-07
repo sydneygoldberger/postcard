@@ -1,0 +1,192 @@
+@font-face {
+  font-family: bentonSansThin;
+  src: url(./fonts/BentonSansThin.otf);
+}
+
+@font-face {
+  font-family: bentonSansLight;
+  src: url(./fonts/BentonSansLight.otf);
+}
+
+@font-face {
+  font-family: bentonSansBook;
+  src: url(./fonts/BentonSansBook.otf);
+}
+
+@font-face {
+  font-family: bentonSansRegular;
+  src: url(./fonts/BentonSansRegular.otf);
+}
+
+@font-face {
+  font-family: bentonSansMedium;
+  src: url(./fonts/BentonSansMedium.otf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(172, 172, 172);
+}
+
+#pageCard {
+  width: 80vw;
+  height: 80vh;
+  margin-left: 10vw;
+  display: flex;
+  justify-content: center;
+}
+
+#frontCard {
+  width: 432px;
+  height: 306px;
+  background-color: #ddd4ce;
+  margin: auto;
+  color: #f0efeb;
+}
+
+/* #stampBox {
+  width: 81px;
+  height: 91px;
+  border: black solid 1.5px;
+  float: right;
+  margin-top: 20px;
+  margin-right: 20px;
+} */
+
+#addressField {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  /* left: 220px;
+  top: 165px; */
+}
+
+#addressBox {
+  position: relative;
+  left: 48%;
+  top: 53%;
+  z-index: 2;
+}
+
+/* #line1 {
+  font-family: bentonSansBook;
+  font-size: 18px;
+  color: black;
+  z-index: 3;
+  position: relative;
+} */
+/* 
+#line2 {
+  font-family: bentonSansBook;
+  display: block;
+  padding-top: 30px;
+  width: 200px;
+  border-bottom: 1.5px solid black;
+  z-index: 3;
+  position: relative;
+}
+
+#line3 {
+  font-family: bentonSansBook;
+  display: block;
+  padding-top: 30px;
+  width: 200px;
+  border-bottom: 1.5px solid black;
+  z-index: 3;
+  position: relative;
+}
+
+#line4 {
+  font-family: bentonSansBook;
+  display: block;
+  padding-top: 30px;
+  width: 200px;
+  border-bottom: 1.5px solid black;
+  z-index: 3;
+  position: relative;
+} */
+
+#backCard {
+  width: 432px;
+  height: 306px;
+  background-color: black;
+  margin: auto;
+}
+
+button {
+  width: auto;
+  margin: auto;
+  position: relative;
+  left: 2vw;
+  top: 10vw;
+  font-family: bentonSansLight;
+  background-color: black;
+  border: black;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 10px;
+  padding-bottom: 7px;
+  padding-left: 15px;
+  padding-right: 13px;
+  font-size: calc(0.4vw + 12px);
+}
+
+button:hover {
+  background-color: rgb(116, 116, 116);
+  cursor: grabbing;
+}
+
+/* #circleBox {
+  display: block;
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+  bottom: 100px;
+} */
+
+/* #circle1 {
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+  background-color: #ddd4ce;
+  display: block;
+  position: relative;
+  z-index: 0;
+  left: 60px;
+} */
+
+/* #circle2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  background-color: #ddd4ce;
+  display: block;
+  position: relative;
+  left: 10px;
+  bottom: 100px;
+} */
+
+/* #circle3 {
+  width: 75px;
+  height: 75px;
+  border-radius: 75px;
+  background-color: #ddd4ce;
+  display: block;
+  position: relative;
+  left: 10px;
+  bottom: 170px;
+} */
+
+@media screen and (max-width: 600px) {
+  #pageCard {
+    width: 100vw;
+    height: 100vh;
+
+    margin: auto;
+    transform: scale(0.8);
+    overflow-x: hidden;
+  }
+}
